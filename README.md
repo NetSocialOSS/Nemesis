@@ -1,16 +1,17 @@
 <h2 align='center'>
   <img src="https://cdn.netsocial.app/images/png/netsocial-transparent.png" height='150px' width='150px'/>
   <br> 
-  
-# Nemesis
+  Nemesis
+</h2>
 
-Nemesis is a image flagging system used to flag NSFW content. It acts like a bridge between the frontend and api. Whiling posting if a image is added it checks for any potential NSFW content that could be in the Post. If it is there it will flage and not allow the post to go through.
+Nemesis is an image flagging system used to detect NSFW content. It acts as a bridge between the frontend and API. During posting, if an image is added, Nemesis checks for potential NSFW content. If detected, it flags the image and prevents the post from going through.
 
 ## Requirements
-Make sure your Go ver is above 18.4
+Ensure your Go version is 1.18 or above.
 
-Setup the .env right to get the best results
+Set up the `.env` file correctly for optimal performance.
 
 ## Contributors
 <a href="https://github.com/NetSocialOSS/API/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=NetSocialOSS/Harbinger" />
+</a>
